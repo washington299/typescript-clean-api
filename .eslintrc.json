@@ -19,7 +19,8 @@
         "import/prefer-default-export": "off",
         "import/extensions": "off",
         "class-methods-use-this": "off",
-        "no-unused-vars": "off"
+        "no-unused-vars": "off",
+        "no-restricted-syntax": "off"
     },
     "settings": {
         "import/resolver": {
