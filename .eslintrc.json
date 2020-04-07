@@ -22,7 +22,8 @@
         "no-unused-vars": "off",
         "no-restricted-syntax": "off",
         "no-console": "off",
-        "prefer-object-spread": "off"
+        "prefer-object-spread": "off",
+        "lines-between-class-members": "off"
     },
     "settings": {
         "import/resolver": {
