@@ -23,7 +23,8 @@
         "no-restricted-syntax": "off",
         "no-console": "off",
         "prefer-object-spread": "off",
-        "lines-between-class-members": "off"
+        "lines-between-class-members": "off",
+        "no-underscore-dangle": "off"
     },
     "settings": {
         "import/resolver": {
