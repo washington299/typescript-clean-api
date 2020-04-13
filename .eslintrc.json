@@ -20,6 +20,7 @@
         "import/extensions": "off",
         "class-methods-use-this": "off",
         "no-unused-vars": "off",
+        "no-unused-expressions": "off",
         "no-restricted-syntax": "off",
         "no-console": "off",
         "prefer-object-spread": "off",
