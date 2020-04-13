@@ -6,7 +6,7 @@
   "scripts": {
     "start": "sucrase-node src/main/server.ts",
     "test": "jest --passWithNoTests --silent --noStackTrace --runInBand",
-    "test:verbose": "jest --passWithNoTests",
+    "test:verbose": "jest --passWithNoTests --runInBand",
     "test:unit": "npm test -- --watch -c jest-unit-config.js",
     "test:integration": "npm test -- --watch -c jest-integration-config.js",
     "test:staged": "npm test -- --findRelatedTests",
@@ -42,6 +42,7 @@
   "dependencies": {
     "bcrypt": "^4.0.1",
     "express": "^4.17.1",
+    "fast-glob": "^3.2.2",
     "mongodb": "^3.5.5",
     "validator": "^13.0.0"
   }
