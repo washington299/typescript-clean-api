@@ -1,4 +1,3 @@
-/* eslint-disable max-classes-per-file */
 import { LogControllerDecorator } from './log';
 import { Controller, HttpResponse, HttpRequest } from '../../presentation/protocols';
 import { serverError, ok } from '../../presentation/helpers/http-helpers';

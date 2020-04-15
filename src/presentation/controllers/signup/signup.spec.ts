@@ -1,6 +1,5 @@
-/* eslint-disable max-classes-per-file */
 import { SignUpController } from './signup';
-import { MissingParamError, InvalidParamError, ServerError } from '../../errors';
+import { MissingParamError, InvalidParamError } from '../../errors';
 import {
   EmailValidator, AccountModel, AddAccount, AddAccountModel,
 } from './signup-protocols';

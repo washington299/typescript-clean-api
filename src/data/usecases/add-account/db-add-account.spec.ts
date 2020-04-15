@@ -1,4 +1,3 @@
-/* eslint-disable max-classes-per-file */
 import { DbAddAccount } from './db-add-account';
 import {
   Encrypter, AccountModel, AddAccountModel, AddAccountRepository,
